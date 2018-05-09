@@ -2,14 +2,14 @@
 
 class M_barang extends CI_Model {
 
- 	private $table = 'barang';
+    private $table = 'barang';
 
- 	public function getAll(){
- 		return $this->db->get($this->table);
- 	}
+    public function getAll() {
+        return $this->db->get($this->table);
+    }
 
- 	public function update(){
- 		
- 	}
+    public function delete() {
+        
+    }
 
 }

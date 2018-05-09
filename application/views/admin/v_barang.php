@@ -20,17 +20,15 @@
 				$no = 1;
 				foreach ($isi_barang as $value) {
 				?>
-
 				<tr>
 					<td><?php echo $no++; ?></td>
 					<td><?php echo $value->nama_barang; ?></td>
-					<td>Deskripsi</td>
-					<td>Kategori</td>
-					<td>Harga</td>
-					<td>Foto</td>
-					<td>Aksi</td>
+					<td><?php echo $value->deskripsi; ?></td>
+					<td><?php echo $value->kategori; ?></td>
+					<td><?php echo $value->harga; ?></td>
+					<td><?php echo $value->foto; ?></td>
+					<td>Delete | Update</td>
 				</tr>
-
 				<?php } ?>
 
 

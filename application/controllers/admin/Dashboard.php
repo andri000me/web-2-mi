@@ -13,14 +13,14 @@ class Dashboard extends CI_Controller {
     }
 
     public function barang() {
-
         $data['isi_barang'] = $this->m_barang->getAll()->result();
-
-        // var_dump($data);
-
         $data['page'] = 'admin/v_barang';
-
         $this->load->view('v_homepage', $data);
+    }
+
+    function delete($id) {
+        $this->m_barang->deleteData($id);
+        return $this->barang();
     }
 
     public function data() {

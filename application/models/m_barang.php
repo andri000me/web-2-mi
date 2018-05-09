@@ -8,8 +8,8 @@ class M_barang extends CI_Model {
         return $this->db->get($this->table);
     }
 
-    public function delete() {
-        
+    public function deleteData($id) {
+        $this->db->delete($this->table, array('id' => $id));
     }
 
 }

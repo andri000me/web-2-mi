@@ -13,6 +13,7 @@
             <ul class="nav navbar-nav">
                 <li class="active"><a href="<?php echo site_url('admin/dashboard'); ?>">Home <span class="sr-only">(current)</span></a></li>
                 <li><a href="<?php echo site_url('admin/dashboard/barang'); ?>">Barang</a></li>
+                <li><a href="<?php echo site_url('admin/dashboard/user'); ?>">User</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="<?= site_url('home/login'); ?>">Login</a></li>

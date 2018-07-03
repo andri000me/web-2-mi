@@ -10,7 +10,6 @@
                 <?php echo $this->session->flashdata('pesan'); ?>
             </div>
         <?php } ?>
-
         <table class="table table-bordered">
             <thead>
             <tr>

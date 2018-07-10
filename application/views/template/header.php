@@ -16,7 +16,7 @@
                 <li><a href="<?php echo site_url('admin/user'); ?>">User</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="<?= site_url('home/login'); ?>">Login</a></li>
+                <li><a href="<?= site_url('login/logout'); ?>">Logout</a></li>
             </ul>
         </div>
     </div>

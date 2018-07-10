@@ -8,6 +8,10 @@ class User extends CI_Controller
         parent::__construct();
         $this->load->model('m_user');
         $this->load->library('form_validation');
+
+        if ($this->session->userdata('email') == ''){
+            redirect('login');
+        }
     }
 
 //    public function index()
